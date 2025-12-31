@@ -29,7 +29,7 @@ if test -d $glibc_prefix ;then
     echo "patched tools has installed, skip it."
 else
     mkdir -p $glibc_prefix
-    wget -O patch-vscode-1-86-for-old-linux.tar.gz https://github.com/rectcircle/patch-vscode-1-86-for-old-linux/releases/download/v0.0.1/patch-vscode-1-86-for-old-linux.tar.gz
+    wget -O patch-vscode-1-86-for-old-linux.tar.gz https://github.com/mrr-fiftytwo/patch-vscode-1-86-for-old-linux/releases/download/v0.0.1/patch-vscode-1-86-for-old-linux.tar.gz
     tar -zxvf patch-vscode-1-86-for-old-linux.tar.gz -C $glibc_prefix
     rm -rf patch-vscode-1-86-for-old-linux.tar.gz
 fi
